@@ -16,10 +16,10 @@
 //     $("#current-date").val(displayDate);
 // });
 
-var stability = document.getElementById("test-stab");
-var specDDT = document.getElementById("spec-ddt");
-var currentDate = document.getElementById("current-date");
-var returnValue_P = document.getElementById("info");
+const stability = document.getElementById("test-stab");
+const specDDT = document.getElementById("spec-ddt");
+const currentDate = document.getElementById("current-date");
+const returnValue_P = document.getElementById("info");
 
 // var inputEntry = specDDT.moment(specDDT.value)
 

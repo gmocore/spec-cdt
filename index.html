@@ -5,7 +5,6 @@
 	<title>DDT Calculator</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300,200' rel='stylesheet' type='text/css'>
-	<link rel="javascript" href="">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script type="text/javascript" src="assets/js/lib/jquery-2.1.4.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -14,21 +13,22 @@
 
 <body>
 	<div class="header">
-		<h1>DDT Calculator Tool</h1>
-		<h5>Enter Criteria to determine remaining Stability</h5>
+		<h1 class="nav-title">DDT Calculator Tool</h1>
+		<h5>- enter criteria to determine remaining stability -</h5>
 	</div>
 	<div class="inputs-wrapper">
-		<h3><span>Specimen Draw Date</span></h3>
-		<input type="text" name="" id="spec-ddt" required
-			pattern="/[0-9][0-9][/][0-9][0-9][/][2][0][1-2][9, 0][ ][0-9][0-9][:][0-9][0-9]/"
-			placeholder="MM/DD/YYYY HH:mm">
-		<!-- <h3><span>Current Date/Time</span></h3>
-		<input type=" datetime" name="" id="current-date" placeholder="click field to enter date"> -->
-		<h3><span>test Stability</span></h3>
-		<input type="text" name="" id="test-stab" placeholder="stability (in hours)">
-		<div class="button-container">
-
-			<button id="submit">Submit</button>
+		<div class="input-content">
+			<h1><span>Specimen Draw Date</span></h1>
+			<input type="text" name="" id="spec-ddt" required
+				pattern="/[0-9][0-9][/][0-9][0-9][/][2][0][1-2][9, 0][ ][0-9][0-9][:][0-9][0-9]/"
+				placeholder="MM/DD/YYYY HH:mm">
+			<!-- <h3><span>Current Date/Time</span></h3>
+			<input type=" datetime" name="" id="current-date" placeholder="click field to enter date"> -->
+			<h1><span>Test Stability</span></h1>
+			<input type="text" name="" id="test-stab" placeholder="stability (in hours)">
+			<div class="button-container">
+				<button id="submit">Submit</button>
+			</div>
 		</div>
 	</div>
 	<div class="returned-info">
